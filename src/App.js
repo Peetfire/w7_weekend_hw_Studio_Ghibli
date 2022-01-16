@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import './containers/Container.css'
+import './containers/Ghibli.css'
+import './components/Content.css'
 import GhibliContainer from './containers/GhibliContainer';
 
 function App() {

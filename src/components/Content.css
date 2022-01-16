@@ -1,0 +1,10 @@
+#content-container{
+    display: grid;
+    justify-items: center;
+}
+
+#content-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import ContentContainer from "../components/ContentContainer";
 import logo from "../img/studio-ghibli.png";
 
 const GhibliContainer = () => {
@@ -18,6 +19,7 @@ const GhibliContainer = () => {
                     </div>
                 </div>
             </header>
+            <ContentContainer/>
         </div>
     )
 }
