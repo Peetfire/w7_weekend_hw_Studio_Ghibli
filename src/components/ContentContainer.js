@@ -2,7 +2,7 @@ import React from "react";
 import ContentList from "./ContentList";
 
 const ContentContainer = ({data}) => {
-    const title = "Dummy title";
+    const title = "Dummy Title";
     return (
         <div id="content-container">
             <h1>{title}</h1>
