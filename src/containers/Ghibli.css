@@ -31,3 +31,11 @@
     margin-top: 4px;
     margin-left: 20px;
   }
+  button{
+    background-color: transparent;
+    border: none;
+    color: white
+  }
+  button:hover {
+    text-decoration: underline;
+  }

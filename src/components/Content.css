@@ -15,44 +15,10 @@
     margin: 20px;
     
 }
-.item {
-    position: relative;
-    overflow: hidden;
-    width: 400px;
-    height: 225px;
-    margin: 20px 10px 0px 10px;
-}
-
-.item > img{
-    width: inherit;
-}
-.item-info{
-    position: absolute;
-    width: inherit;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.61);
-}
-.primary-info{
-    display: flex;
-    align-items: center;
-    height: 25px;    
-}
-.secondary-info{
-    transition: height 1s;
-}
-
-#desc-wrapper{
-    overflow-y: scroll;
-    max-height: 120px;
-    margin-top: 2px;
-    margin-bottom: 8px;
-}
 #line-wrapper{
     width: inherit;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 2px;
-}
-::-webkit-scrollbar{
-    background-color: inherit;
 }

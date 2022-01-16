@@ -1,21 +1,20 @@
 import React, {useState} from "react";
-import ghost from '../img/ghost.png'
 
-const Item = ({data}) => {
+const Film = ({data}) => {
 
     const [style, setStyle] = useState({height: '0px'})
 
-        const handleMouseIn = () => {
-            setStyle({height: '200px'});
-        }
-        const handleMouseOut = e => {
-            setStyle({height: '0px'})
-        }
+    const handleMouseIn = () => {
+        setStyle({height: '200px'});
+    }
+    const handleMouseOut = e => {
+        setStyle({height: '0px'})
+    }
 
     return (
-        <div className="item" onMouseEnter={handleMouseIn} onMouseLeave={handleMouseOut}>
-            <img src={data['movie_banner']} />
-            <div className="item-info">
+        <div className="film" onMouseEnter={handleMouseIn} onMouseLeave={handleMouseOut}>
+            <img id="film-image" src={data['movie_banner']} />
+            <div className="film-info">
                 <div className="primary-info">
                     <h4><b>{data.title}</b></h4>
                     <h4>{data.original_title}</h4>
@@ -43,4 +42,4 @@ const Item = ({data}) => {
     )
 }
 
-export default Item;
+export default Film;

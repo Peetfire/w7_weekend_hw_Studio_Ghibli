@@ -1,12 +1,12 @@
 import React from "react";
 import ContentList from "./ContentList";
 
-const ContentContainer = ({data}) => {
-    const title = "Dummy Title";
+const ContentContainer = ({data, selected}) => {
+
     return (
         <div id="content-container">
-            <h1>{title}</h1>
-            <ContentList data={data}/>
+            <h1>{selected.dispTitle}</h1>
+            <ContentList data={data} selected={selected}/>
         </div>
     )
 }

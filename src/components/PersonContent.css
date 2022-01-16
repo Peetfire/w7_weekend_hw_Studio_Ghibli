@@ -1,0 +1,25 @@
+.person {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 225px;
+    margin: 20px 10px 0px 10px;
+}
+
+.person-img{
+    width: 100px;
+}
+.person-info{
+    display: flex;
+    width: inherit;
+    bottom: 0px;
+ 
+}
+.primary-person-info{
+    width: 300px;
+    display: grid;
+    height: 25px;    
+}
+.secondary-person-info{
+    transition: height 1s;
+}
