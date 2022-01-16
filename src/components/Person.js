@@ -22,8 +22,8 @@ const Person = ({data}) => {
     }
 
     const getFilms = (url) => {
-        fetch(url[0])
-        .then(async response => response.json())
+        fetch(url)
+        .then(response => response.json())
         .then(data => setFilms(data));
     }
 
