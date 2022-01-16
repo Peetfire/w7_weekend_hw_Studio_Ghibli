@@ -22,7 +22,7 @@ const GhibliContainer = () => {
         <div className="ghibli-container">
             <header>
                 <div id="logo-container" >
-                    <div id="img-wrapper">
+                    <div id="logo-img-wrapper">
                         <img src={logo} width="300px"/>
                     </div>                    
                     <div id="button-container">
@@ -34,7 +34,7 @@ const GhibliContainer = () => {
                     </div>
                 </div>
             </header>
-            <ContentContainer/>
+            <ContentContainer data={data}/>
         </div>
     )
 }

@@ -1,9 +1,12 @@
 import React from "react";
 import ghost from '../img/ghost.png'
 
-const Item = () => {
+const Item = ({data}) => {
     return (
-        <img src={ghost} width="200px"/>
+        <div id="item">
+            <img src={data['movie_banner']} />
+        </div>
+    
     )
 }
 

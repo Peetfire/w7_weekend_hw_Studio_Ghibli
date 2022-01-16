@@ -8,3 +8,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+#item > img{
+    width: 400px;
+    margin: 10px;
+}
